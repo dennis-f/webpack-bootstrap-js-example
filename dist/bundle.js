@@ -210,14 +210,14 @@ eval("/*!\n  * Bootstrap v4.1.1 (https://getbootstrap.com/)\n  * Copyright 2011-
 
 /***/ }),
 
-/***/ "./node_modules/expose-loader/index.js?$!./node_modules/jquery/dist/jquery.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/expose-loader?$!./node_modules/jquery/dist/jquery.js ***!
-  \***************************************************************************/
+/***/ "./node_modules/expose-loader/index.js?$!./node_modules/jquery/dist/jquery.js-exposed":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/expose-loader?$!./node_modules/jquery/dist/jquery.js-exposed ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"$\"] = __webpack_require__(/*! -!./jquery.js */ \"./node_modules/jquery/dist/jquery.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/jquery/dist/jquery.js?./node_modules/expose-loader?$");
+eval("/* WEBPACK VAR INJECTION */(function(global) {module.exports = global[\"$\"] = __webpack_require__(/*! -!./jquery.js */ \"./node_modules/jquery/dist/jquery.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ \"./node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./node_modules/jquery/dist/jquery.js-exposed?./node_modules/expose-loader?$");
 
 /***/ }),
 
@@ -263,7 +263,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n__webpack_require__(/*! expose-loader?$!jquery */ \"./node_modules/expose-loader/index.js?$!./node_modules/jquery/dist/jquery.js\");\n\n\n\nconsole.info('$ in app.js: ', $.fn.jquery)\n\n__webpack_require__.e(/*! require.ensure */ 0).then((function(require) {\n\n    __webpack_require__(/*! ./custom-functions */ \"./src/custom-functions.js\")\n    console.info('after custom-functions.js')\n\n}).bind(null, __webpack_require__)).catch(__webpack_require__.oe)\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);\n__webpack_require__(/*! expose-loader?$!jquery */ \"./node_modules/expose-loader/index.js?$!./node_modules/jquery/dist/jquery.js-exposed\");\n\n\n\nconsole.info('$ in app.js: ', $.fn.jquery)\n\n__webpack_require__.e(/*! require.ensure */ 0).then((function(require) {\n\n    __webpack_require__(/*! ./custom-functions */ \"./src/custom-functions.js\")\n    console.info('after custom-functions.js')\n\n}).bind(null, __webpack_require__)).catch(__webpack_require__.oe)\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
