@@ -1,14 +1,13 @@
 {
-  "name": "bootstrap-webpack",
+  "name": "bootstrap-webpack-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack --mode=development --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dennis Frede <dennis.frede@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^4.11.1",
