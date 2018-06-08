@@ -2,6 +2,9 @@
 
 To start simply
 
-```npm run webpack```
+```sh
+npm i
+npm run webpack
+```
 
 Then open `dist/index.html` in your browser.
