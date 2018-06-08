@@ -8,7 +8,7 @@ const plugins = [
     from: 'src/index.html',
     to: 'index.html'
   }])
-]
+];
 
 module.exports = {
   entry: './src/app.js',
