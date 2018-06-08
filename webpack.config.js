@@ -11,9 +11,13 @@ const plugins = [
 ];
 
 module.exports = {
-  entry: './src/app.js',
+  entry: {
+    index: './src/index.js',
+    vendor: ['jquery', 'bootstrap', 'popper.js']
+  },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
+    chunkFilename: '[name].[chunkhash].js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
