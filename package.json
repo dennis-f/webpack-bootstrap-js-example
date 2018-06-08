@@ -10,12 +10,17 @@
   "author": "Dennis Frede <dennis.frede@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^4.11.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "expose-loader": "^0.7.5",
+    "webpack": "^4.12.0",
     "webpack-cli": "^3.0.3"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "expose-loader": "^0.7.5",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   }
